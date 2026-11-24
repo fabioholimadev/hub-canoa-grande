@@ -165,7 +165,10 @@ function layout({ b="", file, title, desc, body, form=false }){
 <title>${title}</title>
 <meta name="description" content="${desc}">
 <meta name="theme-color" content="#0b3f37">
-<link rel="icon" href="${b}assets/logo.png">
+<link rel="icon" href="${b}favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="${b}assets/favicon-32.png">
+<link rel="apple-touch-icon" href="${b}assets/apple-touch-icon.png">
+<link rel="manifest" href="${b}site.webmanifest">
 <script>try{var t=localStorage.getItem("hub-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
