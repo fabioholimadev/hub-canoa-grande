@@ -1,0 +1,7 @@
+# configuração local do Claude Code
+.claude/
+# versão antiga de página única (mantida só localmente)
+original.html
+# sistema
+Thumbs.db
+.DS_Store

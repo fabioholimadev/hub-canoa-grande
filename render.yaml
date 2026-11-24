@@ -1,0 +1,12 @@
+# Configuração para hospedar no Render como site estático (gratuito).
+# No painel do Render: New > Blueprint > escolha este repositório.
+services:
+  - type: web
+    name: hub-canoa-grande
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    headers:
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=86400
